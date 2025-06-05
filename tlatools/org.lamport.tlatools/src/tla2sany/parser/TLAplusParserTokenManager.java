@@ -590,11 +590,6 @@ private final int jjMoveNfa_1(int startState, int curPos)
                         kind = 292;
                      jjAddStates(28, 30);
                   }
-                  else if (curChar == 64)
-                  {
-                     if (kind > 292)
-                        kind = 292;
-                  }
                   else if (curChar == 95)
                      jjCheckNAddTwoStates(14, 15);
                   if (curChar == 83)
@@ -676,10 +671,6 @@ private final int jjMoveNfa_1(int startState, int curPos)
                case 21:
                   if (curChar == 83)
                      jjCheckNAdd(17);
-                  break;
-               case 22:
-                  if (curChar == 64)
-                     kind = 292;
                   break;
                case 25:
                   if ((0x7fffffe07fffffeL & l) != 0L)
@@ -920,11 +911,6 @@ private final int jjStopStringLiteralDfa_2(int pos, long active0, long active1, 
             return 49;
          if ((active1 & 0x18000000000000L) != 0L || (active2 & 0x3000000000000000L) != 0L)
             return 41;
-         if ((active3 & 0x2000000L) != 0L)
-         {
-            jjmatchedKind = 292;
-            return -1;
-         }
          if ((active0 & 0xc0000000000L) != 0L)
          {
             jjmatchedKind = 292;
@@ -1011,15 +997,6 @@ private final int jjStopStringLiteralDfa_2(int pos, long active0, long active1, 
          }
          if ((active2 & 0x3c00000L) != 0L)
             return 219;
-         if ((active3 & 0x2000000L) != 0L)
-         {
-            if (jjmatchedPos == 0)
-            {
-               jjmatchedKind = 292;
-               jjmatchedPos = 0;
-            }
-            return -1;
-         }
          if ((active3 & 0x10000L) != 0L)
             return 28;
          if ((active0 & 0x802c000000000000L) != 0L)
@@ -3668,11 +3645,6 @@ private final int jjMoveNfa_2(int startState, int curPos)
                   }
                   else if (curChar == 92)
                      jjAddStates(86, 92);
-                  else if (curChar == 64)
-                  {
-                     if (kind > 292)
-                        kind = 292;
-                  }
                   else if (curChar == 95)
                      jjCheckNAddTwoStates(55, 56);
                   else if (curChar == 91)
@@ -3958,10 +3930,6 @@ private final int jjMoveNfa_2(int startState, int curPos)
                case 62:
                   if (curChar == 83)
                      jjCheckNAdd(58);
-                  break;
-               case 63:
-                  if (curChar == 64 && kind > 292)
-                     kind = 292;
                   break;
                case 64:
                   if (curChar == 92)
