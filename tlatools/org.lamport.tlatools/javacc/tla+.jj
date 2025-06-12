@@ -1306,7 +1306,7 @@ TOKEN: {
 // easier to add new operator tokens to the middle of the range.
 
 <SPEC,PRAGMA> TOKEN : /* IDENTIFIERS */ {
-  < IDENTIFIER : <CASE0> | <CASE1> | <CASE2> | <CASE3> |  <CASE6> | <CASEN> | "@" | <NUMBER_SET> >
+  < IDENTIFIER : <CASE0> | <CASE1> | <CASE2> | <CASE3> |  <CASE6> | <CASEN> | <NUMBER_SET> >
 }
 
 // The following code has this bug: When parsing the expression "3 <4",

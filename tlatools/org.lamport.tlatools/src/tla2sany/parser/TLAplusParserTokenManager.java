@@ -596,11 +596,14 @@ private final int jjMoveNfa_1(int startState, int curPos)
                         kind = 289;
                      jjAddStates(28, 30);
                   }
+<<<<<<< Updated upstream
                   else if (curChar == 64)
                   {
                      if (kind > 289)
                         kind = 289;
                   }
+=======
+>>>>>>> Stashed changes
                   else if (curChar == 95)
                      jjCheckNAddTwoStates(14, 15);
                   if (curChar == 83)
@@ -683,10 +686,13 @@ private final int jjMoveNfa_1(int startState, int curPos)
                   if (curChar == 83)
                      jjCheckNAdd(17);
                   break;
+<<<<<<< Updated upstream
                case 22:
                   if (curChar == 64)
                      kind = 289;
                   break;
+=======
+>>>>>>> Stashed changes
                case 25:
                   if ((0x7fffffe07fffffeL & l) != 0L)
                      jjAddStates(31, 32);
@@ -926,10 +932,17 @@ private final int jjStopStringLiteralDfa_2(int pos, long active0, long active1, 
             return 49;
          if ((active1 & 0x18000000000000L) != 0L || (active2 & 0x3000000000000000L) != 0L)
             return 41;
+<<<<<<< Updated upstream
          if ((active0 & 0x800000000000000L) != 0L || (active1 & 0x2000000000d90000L) != 0L)
          {
             jjmatchedKind = 289;
             return 184;
+=======
+         if ((active0 & 0xc0000000000L) != 0L)
+         {
+            jjmatchedKind = 292;
+            return 143;
+>>>>>>> Stashed changes
          }
          if ((active3 & 0xc00L) != 0L)
             return 165;
@@ -1006,7 +1019,17 @@ private final int jjStopStringLiteralDfa_2(int pos, long active0, long active1, 
             }
             return 104;
          }
+<<<<<<< Updated upstream
          if ((active0 & 0x43c16c0000000000L) != 0L || (active1 & 0xd80000000004c7f9L) != 0L)
+=======
+         if ((active2 & 0x3c00000L) != 0L)
+            return 219;
+         if ((active3 & 0x10000L) != 0L)
+            return 28;
+         if ((active0 & 0x802c000000000000L) != 0L)
+            return 272;
+         if ((active1 & 0x2000000000990000L) != 0L)
+>>>>>>> Stashed changes
          {
             if (jjmatchedPos != 1)
             {
@@ -3653,11 +3676,14 @@ private final int jjMoveNfa_2(int startState, int curPos)
                   }
                   else if (curChar == 92)
                      jjAddStates(86, 92);
+<<<<<<< Updated upstream
                   else if (curChar == 64)
                   {
                      if (kind > 289)
                         kind = 289;
                   }
+=======
+>>>>>>> Stashed changes
                   else if (curChar == 95)
                      jjCheckNAddTwoStates(55, 56);
                   else if (curChar == 91)
@@ -3944,10 +3970,13 @@ private final int jjMoveNfa_2(int startState, int curPos)
                   if (curChar == 83)
                      jjCheckNAdd(58);
                   break;
+<<<<<<< Updated upstream
                case 63:
                   if (curChar == 64 && kind > 289)
                      kind = 289;
                   break;
+=======
+>>>>>>> Stashed changes
                case 64:
                   if (curChar == 92)
                      jjAddStates(106, 108);
